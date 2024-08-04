@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     min-height: 100vh;
+     background: url(' https://img.freepik.com/premium-photo/pink-bokeh-glitter-sweet-background-graphic-design-illustration_1048944-27259135.jpg?t=st=1722674346~exp=1722674946~hmac=f04c733173d64fc3334c896d6c7d975c0e42c70ab65748a8a78341427bd03e97.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 25px;
+ color: black;
+ border-radius: 5px;
+ /* background-color: transparent;
+ line-height: 30px;
+ backdrop-filter: blur(25px); */
+
+ background-color: rgba(255, 255, 255, 0.7);
+}
+.wrapper input{
+    border-radius: 20px;
+    border:1px solid black;
+    position: relative;
+     padding: 10px 25px 10px 10px;
+     width: 75%;
+     height:100%;
+    
+     
+}
+.wrapper button{
+    position: center;
+}
+.p{
+    text-align: center;
+font-size: 30px;
+
+}
+button{
+    background: whitesmoke;
+    color: black;
+    border:1px solid black;
+    padding: 8px;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+input:hover{
+    transform:scale(0.9);
+}
